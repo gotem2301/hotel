@@ -1,0 +1,61 @@
+body{
+    background-color: #f0b039;
+}
+.navig{
+    background-color: #b05030;
+    width: 100%;
+    height: calc(5vh + 100px);
+    float: left;
+}
+.navi_item{
+    padding: 10px;
+    margin: 15px;
+}
+.navi_item:link ,.navi_item:visited ,.navi_item:hover ,.navi_item:active{
+    color: white;
+}  
+h1{
+    color: #b05030;
+    text-align: center;
+    font-style: italic;
+    font-size: 55px;
+}
+.carousel-inner{
+    width: 65%;
+    max-height: 40%;
+     margin:0 auto;
+    box-shadow: 2px 2px;
+    
+}
+.d-block w-100{
+    object-fit: cover;
+    object-position: top;
+    display: block;
+  width: 100%;
+  height: 100%;
+}
+#rolunk{
+    font-size: 22px;
+    margin: 10px;
+    text-align: justify;
+    float: left;
+}
+.footer{
+    background-color: #b05030;
+    height: 100px;
+    float: left;
+}
+#eredmeny{
+    font-size: 30px;
+    border: 1px solid black;
+    width: calc(10vh + 50px);
+    float: left;
+}
+#tortenetunk{
+    margin: 10px;
+    float: left;
+    margin: 10px 10px calc(10vh) 10px;
+}
+.foot{
+    margin: 5px;
+}
